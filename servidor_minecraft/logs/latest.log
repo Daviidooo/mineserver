@@ -1020,3 +1020,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'savage_and_ravage:blast_proof
 [08Jun2025 22:44:09.277] [Server thread/INFO] [Silent Gear/MaterialManager]: Materials loaded: 128
 [08Jun2025 22:44:09.277] [Server thread/INFO] [Silent Gear/MaterialManager]: - Standard: 122
 [08Jun2025 22:44:10.803] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Found Pupfish chunk at -1969 ~ 1840 after 28 tries
+[08Jun2025 22:59:58.965] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Femvido is 5baeff15-aca6-4016-a532-1bd8a6ed7bfd
+[08Jun2025 23:00:28.634] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@733aea2f[id=5baeff15-aca6-4016-a532-1bd8a6ed7bfd,name=Femvido,properties={textures=[com.mojang.authlib.properties.Property@5a9490af]},legacy=false] (/127.33.74.59:39289): Took too long to log in
+[08Jun2025 23:00:28.635] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@733aea2f[id=5baeff15-aca6-4016-a532-1bd8a6ed7bfd,name=Femvido,properties={textures=[com.mojang.authlib.properties.Property@5a9490af]},legacy=false] (/127.33.74.59:39289) lost connection: Took too long to log in
+[08Jun2025 23:00:28.678] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
