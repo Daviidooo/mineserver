@@ -184,10 +184,10 @@
 
 		#This is a map of special blocks that can be cleaned with soap
 		[functional.soap.special_blocks]
-			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
-			"quark:dirty_glass" = "minecraft:glass"
-			"minecraft:sticky_piston" = "minecraft:piston"
 			"quark:dirty_glass_pane" = "minecraft:glass_pane"
+			"minecraft:sticky_piston" = "minecraft:piston"
+			"quark:dirty_glass" = "minecraft:glass"
+			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
 
 	[functional.cannon]
 		enabled = true
@@ -200,16 +200,8 @@
 		#Time for a cannon to be able to fire again after it has been fired
 		#Range: 0 ~ 500
 		cooldown = 60
+		cannonball = true
 		music_disc_heave_ho = true
-
-		[functional.cannon.cannonball]
-			enabled = true
-			#Cannonball power scaling. Higher values will make cannonballs have more energy. Reminder that the damage and breaking power of a cannonball is proportional to its energy (speed squared) times this constant
-			#Range: 0.0 ~ 100.0
-			power_scaling = 3.5
-			#Radius of the 'explosion' when a cannonball hits a block. Set to 0 to disable
-			#Range: 0.0 ~ 10.0
-			break_radius = 1.1
 
 	[functional.present]
 		enabled = true
@@ -261,7 +253,7 @@
 	[building.blackboard]
 		enabled = true
 		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
-		colored_blackboard = false
+		colored_blackboard = true
 		#Interaction mode for blackboards
 		#Allowed Values: BOTH, GUI, MANUAL
 		interaction_mode = "BOTH"
